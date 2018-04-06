@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fake Blog</title>
+        <meta name ="description" content="Im making a fake blog with HTML. Learning programming is pretty fun if you ask me. Yeehawww!">
+        <!-- <link rel="stylesheet" href="my_cssfile.css"> this links to CSS sytle sheet -->
+        <!-- <script src="my_javascript_library.js"></script> this links to js library -->
+        <!-- <script src="my_javascript_library.js"></script> you can have multiple links to JS librarys -->
+        <style>
+            tfoot {color:red}
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Mehinagic Fake Blog</h1>
+                <nav>
+                    <a href="https://www.facebook.com/dmehinagic">Facebook</a>
+                    <a href="https://www.instagram.com/menacedenis/?hl=en">Instagram</a>
+                    <a href="https://www.linkedin.com/in/denismehinagic">LinkedIn</a>
+                </nav>
+            </div>
+            <div id="body">
+                <h2>About me</h2>
+                <p>Thinks I Like</p>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Cycling</li>
+                    <li>Baking Bread</li>
+                    <li>Brogramming</li>
+                </ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>School</th>
+                            <th>Degree</th>
+                        </tr>
+                    </thead>    
+                    <tr>
+                        <td>2013</td>
+                        <td>Washington State University</td>
+                        <td>B.S. Molecular Microbiology</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>Washington State University</td>
+                        <td>M.S. Environmental Engineering</td>
+                    </tr>
+                    <tfoot>
+                        <td>2018</td>
+                        <td>Seattle</td>
+                        <td>Computer Science</td>
+                    </tfoot>
+                </table>
+            </div>
+            <div id="survey">
+                <form>
+                    <table>
+                        <p>Any tips for my programming journey?</p>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="text" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="option1">I know you</label></td>
+                            <td><input type="radio" id="option1" name="option1"></td>
+                            <td><label for="option2">I dont know you</label></td>
+                            <td><input type="radio" id="option2" name="option2"></td>
+                        </tr>
+                        <tr>
+                            <td><p>Type Away:</p>
+                                <textarea name ="description"></textarea></td>
+                        </tr>
+                    </table>
+                    <p>How did you hear about me?</p>
+                    <labe for="facebook">Facebook</labe>
+                    <input type="checkbox" id="facebook" name="facebook">
+                    <labe for="instagram">Instagram</labe>
+                    <input type="checkbox" id="instagram" name="instagram">
+                    <labe for="linkedin">Linkedin</labe>
+                    <input type="checkbox" id="linkedin" name="linkedin">
+                    <table>
+                    <td><input type="submit" value="Submit"></td>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
