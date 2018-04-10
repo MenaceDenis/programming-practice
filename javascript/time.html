@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<script>
+    console.log("What time is it?")
+    var HOUR = 8;
+    var MINUTE = 31;
+    var PERIOD = "PM";
+
+    if(HOUR >= 8 && MINUTE > 30){
+        console.log("The time is", HOUR, MINUTE, PERIOD)
+        console.log("It's almost the next hour")
+        if(PERIOD == "AM"){
+            console.log("in the morning")
+                } else {
+                console.log("in the afternoon")
+                }
+    } else {
+        if(HOUR <= 8 && MINUTE <30){
+            console.log("The time is", HOUR, MINUTE, PERIOD)
+            console.log("It's just after the hour")
+                
+            if(PERIOD == "AM"){
+            console.log("in the morning")
+                } else {
+                console.log("in the afternoon")
+                }
+        }
+    }
+    
+
+</script>
+</html>
